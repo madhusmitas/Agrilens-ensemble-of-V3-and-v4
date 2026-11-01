@@ -1,0 +1,22 @@
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Local Environment & Secrets ---
+.env
+*.log
+
+# --- Python / Data Analysis (If you are using Jupyter, Pandas, etc.) ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+vrenv/
+venv/
+.venv/
+
+# --- Large Datasets & Model Files (Keep your repo lightweight) ---
+# If you have massive folders of plant images or large CSVs, 
+# uncomment the lines below by removing the '#'
+# /data/raw_images/
+# *.zip
+# *.tar.gz
